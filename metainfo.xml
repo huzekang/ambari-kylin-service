@@ -5,8 +5,8 @@
     <service>
       <name>KYLIN</name>
       <displayName>Kylin</displayName>
-      <comment>an open source Distributed Analytics Engine.</comment>
-      <version>2.1</version>
+      <comment>开源分布式MOLAP计算引擎</comment>
+      <version>3.1.1</version>
       <components>
         <component>
           <name>KYLIN_ALL</name>
@@ -35,7 +35,7 @@
     <requiredServices>
 	    <service>HDFS</service>
 	    <service>HIVE</service>
-		  <service>HBASE</service>
+        <service>HBASE</service>
 	  </requiredServices>
 	  
       <osSpecifics>
