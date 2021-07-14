@@ -39,7 +39,7 @@ ambari-server restart
 ![](http://image-picgo.test.upcdn.net/img/20210601164640.png)
 ![](http://image-picgo.test.upcdn.net/img/20210601165835.png)
 
-## ambari安装kylin自定义服务流程
+## ambari安装kylin自定义服务流程剖析
 在ambari页面上安装kylin时，ambari-server会对stack目录下的kylin的package目录进行压缩生成archive.zip。
 ![](http://image-picgo.test.upcdn.net/img/20210607145406.png)
 然后ambari-agent会将其缓存起来，解压到ambari-agent的缓存目录/var/lib/ambari-agent/cache/stacks/HDP/2.6/services/KYLIN/，之后在ambari页面上点击安装/启动操作，agent都会加载缓存目录下的脚本。
